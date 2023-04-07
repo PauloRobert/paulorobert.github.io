@@ -10,8 +10,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         
-        <link rel="stylesheet" href="./style.css">
-        <title>linkpage</title>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Paulo Roberto</title>
     </head>
 
     <body>
@@ -21,48 +21,53 @@
             <button class="topo__interruptor" id="interruptor">
                 <img src="./imagens/light-bulb.svg" alt="icone de interruptor">
             </button>            
-            <img class="topo__foto-perfil" src="./imagens/604a6688-f4aa-4e45-a6f0-8d71add21cd8-modified.png" alt="foto de perfil">
-            <h1 class="topo__nome">Moises Oliveira</h1>
-           <span class="topo__profissao">Front-end developer</span>
+            <img class="topo__foto-perfil" src="./imagens/perfil.png" alt="foto de perfil">
+            <h1 class="topo__nome">Paulo Roberto</h1>
+            <span class="topo__profissao"></span>
         </header>
 
             <section class="links">
 
-                <a class="links__link" href="https://www.youtube.com/channel/UCNzQjdk6vy6VoNC80KmIgmQ">
-                    <i class="ri-youtube-fill links__icone"></i>
-                    youtube
-                </a>
-
-                <a class="links__link" href="https://instagram.com/moises.oliveirar?igshid=YmMyMTA2M2Y=">
-                    <i class="ri-instagram-fill links__icone"></i>
-                    intagram
-                </a>
-
-                <a class="links__link" href="https://www.linkedin.com/in/moises-oliveira-633b63212/">
+                <a class="links__link" href="https://www.linkedin.com/in/paulorobert/" target="_blank">
                     <i class="ri-linkedin-box-fill links__icone"></i>
-                    linkedIn
+                    Perfil Profissional no linkedIn
                 </a>
 
-                <a class="links__link" href="https://github.com/moisesbaldocchi">
+                <a class="links__link" href="https://github.com/PauloRobert" target="_blank">
                     <i class="ri-github-fill links__icone"></i>
-                    Github
+                    Meus projetos no Github
                 </a>
+
+                <a class="links__link" href="https://medium.com/@Paulo_Roberto" target="_blank">
+                    <i class="ri-medium-line links__icone" ></i>
+                    Artigos técnicos no Medium
+                </a>
+
+
+
 
             </section>
 
             <footer class="rodape">
-                <p class="rodape__pergunta">Algum projeto em mente?</p>
-                <p class="rodape__convite">Me chama no Direct!</p>
 
-                <i class="ri-send-plane-fill" rodape__icone></i>
 
             </footer>
             
 
-        </main>   
-        
-        
-        <script src="./script.js"></script>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"  crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+        <script src="js/typed.min.js"></script>
     </body>
 
+<script>
+    var typed = new Typed('.topo__profissao', {
+        strings: ["Open Source Expert.","Agile Testing.","Quality Assurance.","Q.A Especialist."],
+        typeSpeed: 30,
+        loop: true,
+        cursorChar: '_'
+    });
+
+</script>
 </html>
