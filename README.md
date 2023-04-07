@@ -1,2 +1,0 @@
-# pauloroberto.github.io
-pauloroberto
